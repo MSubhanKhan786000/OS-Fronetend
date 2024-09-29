@@ -1,0 +1,95 @@
+/* Default styles */
+.parallel-blocks {
+  display: flex;
+  flex-wrap: wrap; /* Allow blocks to wrap to the next line on smaller screens */
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.block,
+.block-with-image {
+  width: 45%;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+.block-with-image {
+  position: relative;
+}
+
+.imgs {
+  width: 3300px;
+  height: 400px; 
+  max-width: 100%; 
+  position: relative;
+  right: 80px;
+  object-fit: cover;
+  /* padding-left: 324px; */
+  bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  background-color: aquamarine;
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.block-with-image h2 {
+  display: flex;
+  position: relative;
+  color: black;
+  font-family: 'Your Custom Font', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 120px;
+  transform: scale(1.1);
+  width: 250px;
+  transition: transform 0.3s ease; 
+}
+
+.block-with-image:hover h2 {
+  transform: scale(1.2); 
+}
+
+.block-with-image p {
+  position: relative;
+  color: black;
+  margin-right: 49px;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  right: 10px;
+}
+
+.mybtn {
+  padding: 15px 30px;
+  background-color: #d6204e;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  border: 2px solid #d6204e;
+  border-radius: 3px;
+  margin-left: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  right: 20px;
+  position: relative;
+  outline: none;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .block,
+  .block-with-image {
+    width: 100%; /* Full width for blocks on smaller screens */
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .block-with-image h2 {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+}

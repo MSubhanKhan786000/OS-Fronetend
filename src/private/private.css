@@ -1,0 +1,31 @@
+.privacy-policy-container {
+    width: 100%; /* Ensure the container fills the entire width */
+    margin: 50px auto; /* Adjust top margin as needed */
+    text-align: center; /* Center align the content */
+    background-color:white;
+  }
+  
+  .privacy-policy-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .privacy-policy-container .section {
+    margin-bottom: 30px;
+  }
+  
+  .privacy-policy-container h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  
+  .privacy-policy-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+    text-align: left; /* Align paragraphs to the left */
+  }
+  

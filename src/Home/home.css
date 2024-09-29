@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  background-image: url('../assets/port.jpg');
+  background-size:auto;
+  height:auto;
+  background-position:right;
+  
+}
+
+.block1 {
+  flex: 1;
+  margin-right: 10px; 
+  background-color: #00004B;
+  padding: 20px;
+  height: 400px;
+}
+
+.block2 {
+  flex: 1;
+  margin-right: 0px; /* Changed margin-right: 10px; to margin-right: 0px; */
+  padding: 20px;
+}
+
+.para1 {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 27px;
+  text-align: center; /* Center-align the text */
+  margin-top: 90px; 
+  width: max-content;
+  margin-left:90px
+}
+.para2 {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 27px;
+  margin-bottom: 9px;
+  position: relative;
+  max-width: max-content;
+  font-style:initial;
+  bottom:26px;
+  margin-left:90px;
+}
+
+.para3{
+  color: aliceblue;
+  font-size: 15px;
+  margin-left: 90px;
+  font-family: "Roboto", Arial, sans-serif;
+  width: 420px;
+  position: relative;
+  bottom:20px
+}
+.last {
+  color: #d6204e;
+  font-size: 15px;
+  position: relative;
+  left: 90px;
+  font-weight: 600;
+  bottom:10px;
+  max-width: max-content;
+}
+
+.homebutton {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #d6204e ;
+  background-color: #d6204e;
+  color: #fff;
+  cursor: pointer; 
+  margin: 20px auto;
+  width: max-content;
+  margin-left: 90px;
+  display: block; 
+}
+
+
+.next {
+  background-color: #adfff3;
+  /* background-color: #ffffff; */
+  display: flex;
+  flex-direction: column; /* Changed flex-direction: row; to flex-direction: column; for better responsiveness */
+  align-items: center; /* Added to center contents */
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.next h2 {
+  color: black;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .block1{
+    background-color: transparent;
+  }
+  .para1{
+    font-size: 20px;
+    text-align: center;
+    margin-left:0px
+  }
+  .para2{
+    font-size: 20px;
+    text-align: center;
+    margin-left:0px
+  }
+  .para3{
+    font-size: 14px;
+    text-align: left;
+    margin-left:0px;
+    width: "90%";
+    height: "auto";
+  }
+  .homebutton{
+    font-size: 16px;
+    text-align: left;
+    margin-left:0px;
+  }
+  .last{
+    font-size: 14px;
+    text-align: left;
+    margin-left:0px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+

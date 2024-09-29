@@ -1,0 +1,113 @@
+
+
+.call-container {
+    display: flex;
+    position: -webkit-sticky;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container p9 {
+    font-weight: 500;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    /* margin-top: 20px; */
+}
+
+.call-container h2 {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.mys-container {
+    position: relative;
+    margin-bottom: 40px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0);
+    width: 850px;
+    /* Adjust width as needed */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container label {
+    width: 150px;
+    /* Adjust label width */
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    margin-top: 15px;
+    width: max-content;
+}
+
+.call-button {
+    padding: 10px 20px;
+    background-color: crimson;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    left: 730px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.5s;
+    width: 120px;
+    cursor: pointer;
+}
+
+.call-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.call-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.call-button:hover span {
+    padding-right: 25px;
+}
+.call-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.call-button:hover {
+    opacity: 1;
+    right: 0s;
+    /* background-color: red; */
+}

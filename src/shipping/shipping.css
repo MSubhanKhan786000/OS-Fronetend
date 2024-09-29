@@ -1,0 +1,96 @@
+Global Styles
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Container Styles */
+.shippings-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #00004B;
+    height: 60vh;
+    bottom: 60px;
+    position: relative;
+    font-family: "Arial", sans-serif;
+}
+
+/* Content Styles */
+.shippings-card .content {
+    display: flex;
+    align-items: center;
+}
+.text-content{
+    position: relative;
+    bottom: 1rem;
+    right: 20rem;
+}
+.cimg-container{
+    max-width: 100%; 
+} 
+
+/* Image Styles */
+.shippings-card img {
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    left:300px;
+    width: 200px;
+    height: 200px;
+    bottom:20px;
+    background-color: transparent;
+    /* background-color:  #0a0a2a; */
+    border-radius: 23px;
+}
+
+/* Text Content Styles */
+.shippings-card .text-content {
+    margin-left: 2rem; /* Adjust as needed */
+    position: relative;
+    right:340px
+}
+
+.shippings-card p {
+    font-weight: 700;
+    font-size: 1rem;
+    position: ab;
+    color: aquamarine;
+    text-shadow: 0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
+    padding-left: 1.875rem;
+}
+
+/* Heading Styles */
+.shippings-card h2 {
+    font-weight: 700;
+    font-size: 1.625rem;
+    position: relative;
+    bottom: 1.25rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: #ffffff;
+    text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.8);
+    padding-left: 1.75rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .shipping-card .content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-content {
+        position: static;
+        margin: 1rem 0;
+        right: 0;
+    }
+    .shipping-card h2 {
+        font-size: 1.25rem;
+        padding-left: 0;
+    }
+    .shipping-card p {
+        font-size: 0.875rem;
+        padding-left: 0;
+    }
+}

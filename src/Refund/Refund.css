@@ -1,0 +1,33 @@
+/* RefundPolicy.css */
+
+.refund-policy-container {
+    max-width: 800px;
+    margin: 50px auto; /* Adjust top margin as needed */
+    /* padding: 20px; */
+    text-align: center; /* Center align the content */
+  }
+  
+  .refund-policy-container h1 {
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 60px;
+  }
+  
+  .refund-policy-container .section {
+    margin-bottom: 30px;
+  }
+  
+  .refund-policy-container h2 {
+    font-size: 20px;
+    color:black;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  
+  .refund-policy-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+    text-align: left; /* Align paragraphs to the left */
+  }
+  

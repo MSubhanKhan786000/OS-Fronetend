@@ -1,0 +1,260 @@
+.hheader {
+    display: flex;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 130px;
+    right: 35px
+}
+
+.imagine {
+    display: flex;
+    height: 400px;
+    width: 580px;
+    position: relative;
+    right: 145px
+}
+
+.p1 {
+    display: flex;
+    width: 490px;
+    color: dimgray;
+    margin-top: 40px;
+    position: relative;
+    right: 35px;
+    top: 102px;
+}
+
+.earnings-container {
+    display: flex;
+    background-color: #adfff3;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin-top: 50px;
+    position: relative;
+    bottom: 61px;
+    flex-direction: row;
+}
+
+.earnings-container h2 {
+    position: absolute;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parallel-blocks{
+    display: flex;
+    background-color: white;
+}
+.earnings-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: relative;
+    color: #333;
+    top: 150px;
+    height: 240px;
+    margin: 10px;
+    width: 300px;
+}
+
+.images {
+    display: block;
+    margin: 0 auto;
+}
+
+.imager {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background-color: transparent;
+    height: 70px;
+}
+.imager:hover{
+    background-color: white;
+}
+.images:hover {
+    background-color: white;
+}
+
+.earnings-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.earnings-card h2 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 68px;
+    width: 240px;
+}
+
+.earnings-card p {
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.headerings-container{
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    color: black;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+    bottom:40px
+}
+.header4{
+    text-align: center;
+    color:darkblue;
+    font-weight: 700;
+    position: absolute;
+    background-color: #fff;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para4{
+    display: flex;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    top:30px;
+    right:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+
+}
+.hooks-card {
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 120px;
+    position: relative;
+    left: 260px;
+    top: 20px;
+}
+
+.hooks-card h2 {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    color: #333;
+    
+}
+
+.hooks-card form {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%; /* Ensure the form takes up the full width */
+    margin: auto;
+    flex-grow: inherit;
+}
+
+.hooks-card label{
+    position:absolute;
+    margin-top: -10px;
+    background-color: white;
+}
+.hooks-card input{
+    position:relative;
+    margin-bottom:8px;
+    height:45px;
+    border-radius: 5px;
+    width: auto;
+    border: 1px solid #ccc;
+    flex-grow: 1;     
+    margin-right: 10px;
+    bottom:66px
+
+}
+
+.hooks-card textarea {
+    resize: horizontal;
+}
+
+.hooks-card button {
+    padding: 10px 20px;
+    background-color:crimson;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 260px;
+    transition: background-color 0.3s ease;
+}
+
+/* UploadButton.css */
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:90px;
+    right:375px
+  }
+  
+  /* .upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:crimson;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   */
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .icon {
+    margin-right: 5px; /* Add space between icon and text */
+  }
+  
+
+@media screen and (max-width: 768px) {
+    .earnings-card {
+        width: 100%;
+        /* Make the card full width on mobile */
+        max-width: 300px;
+        /* Limit the maximum width */
+    }
+
+    .earnings-card h2 {
+        margin-top: 20px;
+        /* Reduce margin on mobile */
+    }
+
+    .earnings-card p {
+        margin-top: 10px;
+        /* Reduce margin on mobile */
+    }
+}
