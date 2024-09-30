@@ -12,7 +12,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-top: 20px;
   width: 100%;
 }
@@ -27,14 +28,13 @@
   margin: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   opacity: 0;
-  transform: translateY(10px) scale(0.6);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  /* transform: translateY(10px) scale(0.6); */
+  /* transition: opacity 0.5s ease, transform 0.5s ease; */
 }
-
 
 .card.show {
   opacity: 1;
-  transform: translateY(0) scale(1);
+  /* transform: translateY(0) scale(1); */
 }
 
 .p {
@@ -49,7 +49,8 @@
 .para {
   font-weight: 500;
   margin-top: 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 14px;
   color: grey;
 }
@@ -85,7 +86,7 @@
   cursor: pointer;
   outline: none;
 }
-.card-button2:hover{
+.card-button2:hover {
   background-color: #d6204e;
   color: white;
   border-color: #d6204e;
@@ -125,18 +126,15 @@
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-
-
 .lastbutton:hover {
   background-color: #d6204e;
   color: white;
   border-color: #d6204e;
 }
 
-.loader-cart{
+.loader-cart {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-

@@ -7,6 +7,7 @@ import Footer from '../footer/footer';
 function AboutUs() {
   return (
     <>
+      <p>Hello from About Us Page</p>
       <Header />
       <div className="" style={{ backgroundColor: 'white', backgroundColor: "#adfff3", padding: "100px" }}>
         <p style={{ textAlign: 'center', fontSize: '24px', fontWeight: "bold" }}>About Occasion Styles</p>

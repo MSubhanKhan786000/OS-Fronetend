@@ -1176,8 +1176,8 @@ const ListofProducts = () => {
                               backgroundColor: "#000",
                               width: 2,
                               height: 14,
-                              transform: "rotate(-90deg)",
-                              transformOrigin: "0 0",
+                              // transform: "rotate(-90deg)",
+                              // transformOrigin: "0 0",
                             }}
                           />
                           <div
